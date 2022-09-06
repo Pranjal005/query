@@ -1,0 +1,16 @@
+CREATE dATABASE UserRecords
+
+Use UserRecords
+Create Schema LoginData
+
+Create Table LoginData.Login(
+Username varchar(50) primary key,
+EmailAddress varchar(50),
+Password varchar(50)
+)
+
+INSERT INTO Login(Username,EmailAddress, Password)
+VALUES ('Pranjal', 'singhpranjal822@gmail.com', 'pranjal');
+
+INSERT INTO Login(Username,EmailAddress, Password)
+VALUES ('Arpan', 'arpan.singh13@gmail.com', 'arpan');
